@@ -1,0 +1,171 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main-container {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 90%
+    
+}
+#searchform {
+    position: ;
+    top: 20px;
+}
+.float-right {
+    float: right;
+    width: 5px;
+    height: 10px;
+}
+.google-logo {
+    margin-top: 5em;
+    width: 5 px;
+    height: 2 px;
+    text-align: left;
+
+}
+
+}
+
+}
+
+ol{
+    list-style: none;
+    
+}
+ol li{
+    display: block;
+    text-decoration: none;
+    padding: 3px, 40px, 3px, o;
+    font-size: 14 px;
+    line-height: 20 px;
+    font-weight: normal;
+    color: #222;
+}
+h3 {
+    font-weight: normal;
+    color: #222;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 8px;
+    height: auto;
+    line-height: 1.33;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 0.75;
+}
+a:hover{
+    text-decoration: underline;
+}
+.apps-button{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.apps-button:hover{
+    filter: brightness(0%)
+}
+li button{
+    color:#fff;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 0px 12px;    
+}
+/* this is google logo */
+.google-logo 
+    margin-top: 10em;
+    text-align: center;
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.search-bar-outer {
+    width: 580px;
+    height: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 3px #ddd;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+.search-bar-inner {
+    outline: none;
+    border: none;
+    width: 530px;
+    margin-left: 10px;
+}
+.voice-search > img {
+    width: 24px;
+    height: 30px;
+    margin-top: 4px;
+}
+/* search buttons */
+.buttons-container {
+    margin-top: 1.5em;
+    text-align: center;
+}
+#bc_submit:hover {
+    background-image: -moz-linear-gradient(top #f8f8f8, #f1f1f1);-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    background-image: linear-gradient(top, #f8f8f8, #f1ff1);
+    background-image:-o-linear-gradient(top,#f8f8f8,#f1f1f1);
+    border:1px solid #c6c6c6;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color:#222;
+    padding: 0 6px;
+}
+.buttons-container > button {
+	height: 46px;
+    background-color: #eee;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+}
+.footer {
+    font-size: 13px;
+    opacity: 0.75;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+    padding: 0em 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
