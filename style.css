@@ -1,160 +1,212 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.main-container {
     position: absolute;
-    top: 0;
-    width: 80%;
-    height: 90%
     
 }
-#searchform {
-    position: ;
-    top: 20px;
+
+.header div {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 30px;
+    
+    
 }
 .float-right {
-    float: right;
-    width: 5px;
-    height: 10px;
-}
-.google-logo {
-    margin-top: 5em;
-    width: 5 px;
-    height: 2 px;
-    text-align: left;
-
-}
-
-}
-
-}
-
-ol{
-    list-style: none;
+    position: absolute;
+    
     
 }
-ol li{
-    display: block;
-    text-decoration: none;
-    padding: 3px, 40px, 3px, o;
-    font-size: 14 px;
-    line-height: 20 px;
-    font-weight: normal;
-    color: #222;
+.float-right li {
+    display: inline-block;
+    float: right;
 }
-h3 {
-    font-weight: normal;
-    color: #222;
-    font-size: 18px;
-    text-align: left;
-    padding-bottom: 8px;
-    height: auto;
-    line-height: 1.33;
-    margin: 0;
-    padding: 0;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-a{
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 15px;
-    opacity: 0.75;
-}
-a:hover{
-    text-decoration: underline;
-}
-.apps-button{
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-}
-.apps-button:hover{
-    filter: brightness(0%)
-}
-li button{
-    color:#fff;
-    background-color: #4285f4;
-    border: 1px solid #4285f4;
-    font-weight: bold;
-    border-radius: 2px;
-    line-height: 28px;
-    padding: 0px 12px;    
-}
-/* this is google logo */
-.google-logo 
-    margin-top: 10em;
-    text-align: center;
 
-.search-bar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
+.float-right img {
+    height: 25px;
 }
-.search-bar-outer {
-    width: 580px;
-    height: 50px;
-    border: 1px solid #ccc;
-    box-shadow: 1px 2px 3px #ddd;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-}
-.search-bar-inner {
-    outline: none;
-    border: none;
-    width: 530px;
-    margin-left: 10px;
-}
-.voice-search > img {
-    width: 24px;
+
+.float-right button {
     height: 30px;
-    margin-top: 4px;
+    width: 80px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-right: 10px;
 }
-/* search buttons */
-.buttons-container {
-    margin-top: 1.5em;
-    text-align: center;
+
+.logo {
+   padding: 0px;
+   display: inline-block;
+   
 }
-#bc_submit:hover {
-    background-image: -moz-linear-gradient(top #f8f8f8, #f1f1f1);-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    background-color: #f8f8f8;
-    background-image: linear-gradient(top, #f8f8f8, #f1ff1);
-    background-image:-o-linear-gradient(top,#f8f8f8,#f1f1f1);
-    border:1px solid #c6c6c6;
-    box-shadow:0 1px 1px rgba(0,0,0,0.1);
-    color:#222;
-    padding: 0 6px;
+.logo img {
+    height: 30px;
+    left: 0px;
 }
-.buttons-container > button {
-	height: 46px;
-    background-color: #eee;
-    border: 1px solid #eee;
-    border-radius: 2px;
-    color: #757575;
+.logo img:hover {
     cursor: pointer;
-    font-family: arial,sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 11px 4px;
-    padding: 0 16px;
-    text-align: center;
 }
-.footer {
-    font-size: 13px;
-    opacity: 0.75;
-    color: gray;
+   
+    
+div input {
+    margin-left: 180px;
+}
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: ;
+    background-repeat: no-repeat;
+    left: 0px;
+    border: 1px solid lightgray;
+    width: 41%;
+    height: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+      
+    }
+    
+
+
+.main-container {
+    width: 750px;
+    
+}
+.navbar {
+    
+    margin-top: 80px;
+    margin-left: 180px;
+    float: left;
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    
+    outline-width: 0px;
+    outline: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+    
+    
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 0 25px 0 0;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul .active {
+    color: blue;
+    border-bottom: 3px solid blue;
+    
+}
+ul .active:hover {
+    color: blue;
+}
+
+.about-results {
+   float: left;
+   position: absolute;
+   display: flex;
+   width: 700px;
+   margin-top: 140px;
+   margin-left: 180px;
+   padding: 0;
+  
+}
+.results-container {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    line-height: 40px;
-    padding: 0em 1em;
+    left: 180px;
+    top: 0px;
+    padding: 0px;
+    width: 45%;
+    margin-top: 200px;  
+    padding-top: 20px;
+    
+}
+.search-result {
+    padding-bottom: 15px;
+    line-height: 0.5em;
+}
+.search-result p {
+    line-height: 1.2em;
+    padding-top: 0;
+    
+}
+.search-result a {
+    text-decoration: none;
+}
+.search-result a:hover {
+    text-decoration: underline;
+    ;
+}
+.green {
+    color: green;
+}
+.green:hover {
+    cursor: pointer;
+}
+.clear {
+    clear: both;
 }
 
+.people-ask {
+    line-height: 0em;
+    padding-bottom: 5px;
+}
+.similar-search h2:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+.search-result img {
+    height: 50px;
+    clip: rect(60px 0 20px 0);
+    display: inline-block;
+    margin: 1px solid blue;
+}
+.float {
+    display: inline-block;
+    margin:none;
+}
 
+.google-search-pages img {
+    background-color: white;
+    clip: rect(200px 0 80px 0)
+}
 
+.footer {
+    display: inline-block;
+    margin-top: 2650px;
+    margin-left: -750px;
+    line-height: 1em;
+    
+}
+.footer li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.footer li a {
+    text-decoration: none;
+    color: rgba(90, 83, 83, 0.7);
+
+}
+.footer ul li a:hover {
+    cursor: pointer;
+    color: rgba(90, 83, 83, 1)
+}
 
 
 
